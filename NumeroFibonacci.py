@@ -5,4 +5,8 @@ while True:
     n=int(input("Ingresa un numero mayor a 1: "))
     if n>1:
         break
-print("1", end=" ")
+for i in range(1,n):
+    z=x+y
+    x=y
+    y=z
+    print(f"F{n} = {z}")
