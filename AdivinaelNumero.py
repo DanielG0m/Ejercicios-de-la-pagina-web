@@ -23,6 +23,7 @@ while True:
                 print(f"Es menor que {intento}")
             else:
                 print(f"Correcto. Adivinaste en {i} intentos")
+                i=1
                 os.system('pause')
                 os.system('cls')
                 break
@@ -36,6 +37,7 @@ while True:
             s=input()
             if s == "=":
                 print(f"Adivine en {i} intentos B-)")
+                i=1
                 os.system('pause')
                 os.system('cls')
                 break
