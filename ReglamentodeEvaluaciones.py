@@ -1,2 +1,1 @@
-while True:
-    c1=
+
