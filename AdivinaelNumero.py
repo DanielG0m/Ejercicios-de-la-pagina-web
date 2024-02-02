@@ -30,19 +30,19 @@ while True:
             i+=1
 
     elif op == 2:
+        m=randrange(101)
+        x=0
+        y=101
         while True:
-            m=randrange(101)
             print(f"Intento {i}:",m)
             print("Ingresa < , >, = ")
-            x=0
-            y=101
             s=input()
             if s==">":
                 x=m
-                num=randrange(x,y)
+                m=randrange(x,y)
             elif s=="<":
                 y=m
-                num=randrange(x,y)
+                m=randrange(x,y)
             if s == "=":
                 print(f"Adivine en {i} intentos B-)")
                 i=1
